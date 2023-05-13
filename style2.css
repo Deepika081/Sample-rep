@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.my_style {
+    background-color: brown;
+    color: bisque;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.gparent {
+    position: relative;
+    background-color: beige;
+    width: 500px;
+    height: 500px;
+}
+
+.parent {
+    position: relative;
+    background-color: #362222;
+    width: 300px;;
+    height: 300px;
+    top: 100px;
+    left: 100px;
+}
+
+.child {
+    position: absolute;
+    display: inline-block;
+    background-color: #fdd2bf;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    bottom: 0;
+    right: 0;
+}
